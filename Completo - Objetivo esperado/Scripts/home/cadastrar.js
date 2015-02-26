@@ -178,6 +178,16 @@ function GetEnderecoAjax(cep) {
             var mensagem = "<strong>Erro: </strong> Ocorreu erro ao tentar buscar o CEP, por favor informe um CEP válido. <p><i>" + jqXHR.statusText + "</i></p>";
             MensagemErro(mensagem);
             LimparEndereco();
+        },
+        // Função executada antes do Envio da requisição
+        beforeSend: function (xhr) {
+            // .show() para fazer o elemento aparecer.
+            $('#imgLoading').show();
+        },
+        // Função executada logo que a requisição completar, tanto se for com sucesso ou erro.
+        complete: function (xhr) {
+            // .hide() para fazer o elemento sumir
+            $('#imgLoading').hide();
         }
     });
 }
