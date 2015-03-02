@@ -1,0 +1,12 @@
+Fontes de Estudo: 
+	***** https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide 
+	***** http://www.codecademy.com/pt-BR/tracks/jquery   - Academia On-line de Jquery
+	***** http://www.w3schools.com/js/ 
+
+	Livros: 
+	***** Dominando JavaScript Com Jquery - Casa do Código (PT)
+	***** Secrets Of The Javascript Ninja 
+
+Contato: charlesmendes31@gmail.com
+Twitter: https://twitter.com/CharlesMendesMa
+Github: https://github.com/MackMendes/
