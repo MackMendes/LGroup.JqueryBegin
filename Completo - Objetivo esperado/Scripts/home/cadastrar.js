@@ -138,7 +138,7 @@ function LimparCampos() {
     // O Jquery vai buscar em toda a página elementos <input type="text"> e atribuir o valor em branco para todos.
     $('input[type="text"]').val('');
 
-    // Outra forma se buscar elemento no página com Jquery, a colocando vircula (,) e os elementos. O Jquery
+    // Outra forma se buscar elemento na página com Jquery, é colocando vircula (,) e os elementos. O Jquery
     // retorna uma lista de elementos, e sem ter que fazer um for para limpar todos, atribui o valor em branco 
     // com o .val para todos de uma única vez.
     $('input[type="tel"], input[type="email"], input[type="datetime"]').val('');
