@@ -1,5 +1,3 @@
-/// <reference path="../typings/jquery/jquery.d.ts"/>
-
 // Boa pratica, colocar on {nome da função} {nome do evento}, quando 
 // for utilizar essa função para ser acionada por um evento
 function onCadastarClick() {
@@ -149,16 +147,14 @@ function onBuscarCEPBlur(htmlDom) {
 				$('#imgLoading').hide();
 			}
 		});
-	
-	
 	}
-	
 }
 
 
 function ColocarEventoBlurNoCEP() {
 	$('#txtCep').blur(function(){
-		debugger;
+		// this = Este objeto (Dom, Função, Array, Objeto... ) nesse momento (escopo atual);
+		// Aki abaixo, o this é o elemento DOM do HTML acionada no evento 
 		onValidaBlur(this); 
 		onBuscarCEPBlur(this);
 	});

@@ -1,13 +1,15 @@
  // jQuery = $
 $(document).ready(function(){
     SetAno(); 
-    
+    // Chamando uma função que esta na cadastrar.js
     ColocarEventoBlurNoCEP();               
 });
 
 // Declarando uma função
 function SetAno() {
-    //
+    // debugger é uma palavra reservada no JavaScript para parar a execução quando 
+    // o f12 (console) estiver aberto. Então, assim que finalizar a tarefa, remova
+    // do código!
     //debugger;
     
     // Colocando na variavel o objeto jquery que foi consultado na página
