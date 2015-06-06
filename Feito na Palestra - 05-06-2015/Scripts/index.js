@@ -1,6 +1,8 @@
  // jQuery = $
 $(document).ready(function(){
-    SetAno();                
+    SetAno(); 
+    
+    ColocarEventoBlurNoCEP();               
 });
 
 // Declarando uma função
